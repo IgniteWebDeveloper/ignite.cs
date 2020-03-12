@@ -324,6 +324,7 @@ html,body
     background-size: cover;
     background-attachment: fixed;
     /* padding: 10px 25px; */
+    /* background-color: #e04441; */
 }
 #backpg2 h1
 {
@@ -362,7 +363,7 @@ html,body
     margin-top: 10px;
     width: 100%;
     height: 80%;
-    background-color: black;
+    /* background-color: black; */
 }
 #portfolio::-webkit-scrollbar
 {
@@ -384,7 +385,7 @@ html,body
     height: 100%;
     display: inline-block;
     margin-right: 10px;
-    background-color: black;
+    /* background-color: black; */
     background-position: center;
     background-size: cover;
 }
@@ -470,7 +471,7 @@ html,body
     left: -100%;
     width: 50px;
     height: 3px;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 10px;
 }
 #backpg2 i
@@ -734,5 +735,311 @@ html,body
     }
     to{
         opacity: 1;
+    }
+}
+@media(max-width:360px)
+{
+    #backmain
+    {
+        /* overflow: hidden; */
+        /* width: 93%; */
+        height: 600px;
+        background-color: black;
+        flex-direction: column;
+    }
+    #backpg1
+    {
+        width: 100%;
+        overflow: hidden;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #nav
+    {
+        /* display: flex;
+        align-items: center; */
+        position: fixed;
+        height: 60px;
+        width: 100%;
+    }
+    #logo
+    {
+        width: 60px;
+        height: 15px;
+        margin-left: 10px;
+        margin-bottom: -6px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #links
+    {
+        width: 200px;
+        /* margin-right: 10px; */
+    }
+    #links a
+    {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    #links a:hover
+    {
+        font-size: 10px;
+        width: 60px;
+        height: 15px;
+    }
+    #headings1
+    {
+        left: 25%;
+        top: 15%;
+        width: 250px
+        
+    }
+    #headings1 h2
+    {
+        font-size: 15px;
+    }
+    #headings2
+    {
+        left: 1%;
+        width: 96%;
+        height: 300px;
+        padding: 2px 5px;
+    }
+    #headings2 h2
+    {
+        position: absolute;
+        line-height: 40px;
+        text-align: right;
+        top: 5%;
+        font-weight: 100;
+        left: 7.5%;
+        font-size: 12px;
+    }
+    #dark
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #headings2 h1
+    {
+        top: 20%;
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    #headings2 h1:nth-child(3)
+    {
+        font-size: 30px;
+        position: absolute;
+        top: 30%;
+    }
+    #email
+    {
+        width: 70%;
+        left: 2%;
+    }
+    #email h5
+    {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    #email i
+    {
+        margin-right: 10px;
+    }
+    #headings2 a
+    {
+        width: 22%;
+        right: 2.5%;
+        font-size: 11px;
+    }
+    #gotp
+    {
+        position: fixed;
+        right: 12%;
+    }
+    #overlay h6
+    {
+        top: 88%;
+        right: 1%;
+    }
+    #knowmoreline
+    {
+        top: 82%;
+        right: 3%;
+    }
+    #arrow
+    {
+        bottom: 3%;
+        right: 4%;
+    }
+    #backpg2
+    {
+        width: 100%;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backpg2 h1
+    {
+        margin-left: 5px;
+        font-size: 30px;
+        top: 10%;
+        letter-spacing: 1px;
+    }
+    #backpg2 h3
+    {
+        font-size: 20px;
+        top: 25%;
+        text-align: right;
+        margin-right: -5px;
+    }
+    #portfolio
+    {
+        top: 30%;
+        height: 50%;
+    }
+    .webdesigns
+    {
+        width: 90%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 2px;
+    }
+    #first
+    {
+        border: none;
+    }
+    #second
+    {
+        border: none;
+    }
+    #third
+    {
+        border: none;
+    }
+    #fourth
+    {
+        border: none;
+    }
+    #fivth
+    {
+        border: none;
+    }
+    #sixth
+    {
+        width: 300px;
+        border: none;
+    }
+    #seventh
+    {
+        width: 300px;
+        border: none;
+    }
+    #eight
+    {
+        width: 300px;
+        border: none;
+    }
+    #backpg2 h6
+    {
+        color: white;
+        right: 8%;
+        bottom: 24%;
+    }
+    #viewmoreline
+    {
+        background-color: white;
+        right: 22%;
+        bottom: 24%;
+    }
+    #backpg2 i
+    {
+        color: white;
+        bottom: 24%;
+    }
+    #backpg3
+    {
+        /* width: 100%; */
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 1400px;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backimg3
+    {
+        height: 100%;
+    }
+    #contactblur
+    {
+        width: 60%;
+        height: 90%;
+        top: 45%;
+        flex-direction: column;
+    }
+    .contactus
+    {
+        width: 95%;
+    }
+    .divs
+    {
+        width: 90%;
+    }
+    .contactusline
+    {
+        width: 130%;
+        height: 5px;
+    }
+    #social
+    {
+        font-size: 26px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+    }
+    .divisions
+    {
+        width: 110%;
+    }
+    .divisions:nth-child(2)
+    {
+        margin-top: 15px;
+    }
+    .divisions a
+    {
+        margin-left: 20px;
+    }
+    .partitionline
+    {
+        height: 5px;
+        width: 140%;
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    #vimeo
+    {
+        margin-left: 20px;
+    }
+    #aboutus
+    {
+        width: 150%;
+    }
+    #aboutus p
+    {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #ending
+    {
+        margin-top: 20px;
     }
 }
