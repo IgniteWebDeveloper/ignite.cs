@@ -737,7 +737,7 @@ html,body
         opacity: 1;
     }
 }
-@media(max-width:360px)
+@media(max-width:393px)
 {
     #backmain
     {
@@ -1043,3 +1043,23 @@ html,body
         margin-top: 20px;
     }
 }
+/* @media(max-width:1080px)
+{
+    #backmain
+    {
+        height: 1280px;
+        flex-direction: column;
+        display: flex;
+    }
+    #backpg1
+    {
+        width: 100%;
+        overflow: hidden;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+} */
