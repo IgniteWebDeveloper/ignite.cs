@@ -393,27 +393,27 @@ html,body
 }
 #first
 {
-    background-image: url(second.png);
+    background-image: url(second.jpg);
     /* border: 1px solid white; */
 }
 #second
 {
-    background-image: url(first.png);
+    background-image: url(first.jpg);
     /* border: 1px solid white; */
 }
 #third
 {
-    background-image: url(third.png);
+    background-image: url(third.jpg);
     /* border: 1px solid white; */
 }
 #fourth
 {
-    background-image: url(fourth.png);
+    background-image: url(fourth.jpg);
     /* border: 1px solid white; */
 }
 #fivth
 {
-    background-image: url(fivth.png);
+    background-image: url(fivth.jpg);
     /* border: 1px solid white; */
 }
 #ninth
@@ -486,7 +486,7 @@ html,body
 }
 #sixth
 {
-    background-image: url(sixth.png);
+    background-image: url(sixth.jpg);
     /* border: 1px solid white; */
     background-size: contain;
     background-position: center;
@@ -495,7 +495,7 @@ html,body
 }
 #seventh
 {
-    background-image: url(seventh.png);
+    background-image: url(seventh.jpg);
     /* border: 1px solid white; */
     background-size: contain;
     background-position: center;
@@ -505,7 +505,7 @@ html,body
 
 #eight
 {
-    background-image: url(eight.png);
+    background-image: url(eight.jpg);
     /* border: 1px solid white; */
      background-size: contain;
     background-position: center;
@@ -1188,13 +1188,15 @@ html,body
         margin-top: 20px;
     }
 }
-/* @media(max-width:1080px)
+@media(max-width:411px)
 {
     #backmain
     {
-        height: 1280px;
+        /* overflow: hidden; */
+        /* width: 93%; */
+        height: 600px;
+        background-color: black;
         flex-direction: column;
-        display: flex;
     }
     #backpg1
     {
@@ -1207,4 +1209,1080 @@ html,body
         flex-direction: column;
         scroll-behavior: smooth;
     }
-} */
+    #nav
+    {
+        /* display: flex;
+        align-items: center; */
+        position: fixed;
+        height: 60px;
+        width: 100%;
+    }
+    #logo
+    {
+        width: 60px;
+        height: 15px;
+        margin-left: 10px;
+        margin-bottom: -6px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #links
+    {
+        width: 200px;
+        /* margin-right: 10px; */
+    }
+    #links a
+    {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    #links a:hover
+    {
+        font-size: 10px;
+        width: 60px;
+        height: 15px;
+    }
+    #headings1
+    {
+        left: 25%;
+        top: 15%;
+        width: 250px
+        
+    }
+    #headings1 h2
+    {
+        font-size: 15px;
+    }
+    #headings2
+    {
+        left: 1%;
+        width: 96%;
+        height: 300px;
+        padding: 2px 5px;
+    }
+    #headings2 h2
+    {
+        position: absolute;
+        line-height: 40px;
+        text-align: right;
+        top: 5%;
+        font-weight: 100;
+        left: 7.5%;
+        font-size: 12px;
+    }
+    #dark
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #headings2 h1
+    {
+        top: 20%;
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    #headings2 h1:nth-child(3)
+    {
+        font-size: 30px;
+        position: absolute;
+        top: 30%;
+    }
+    #email
+    {
+        width: 70%;
+        left: 2%;
+    }
+    #email h5
+    {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    #email i
+    {
+        margin-right: 10px;
+    }
+    #headings2 a
+    {
+        width: 22%;
+        right: 2.5%;
+        font-size: 11px;
+    }
+    #gotp
+    {
+        position: fixed;
+        right: 12%;
+    }
+    #overlay h6
+    {
+        top: 88%;
+        right: 1%;
+    }
+    #knowmoreline
+    {
+        top: 82%;
+        right: 3%;
+    }
+    #arrow
+    {
+        bottom: 3%;
+        right: 4%;
+    }
+    #backpg2
+    {
+        width: 100%;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backpg2 h1
+    {
+        margin-left: 5px;
+        font-size: 30px;
+        top: 10%;
+        letter-spacing: 1px;
+    }
+    #backpg2 h3
+    {
+        font-size: 20px;
+        top: 25%;
+        text-align: right;
+        margin-right: -5px;
+    }
+    #portfolio
+    {
+        top: 30%;
+        height: 50%;
+    }
+    .webdesigns
+    {
+        width: 90%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 2px;
+    }
+    #first
+    {
+        border: none;
+    }
+    #second
+    {
+        border: none;
+    }
+    #third
+    {
+        border: none;
+    }
+    #fourth
+    {
+        border: none;
+    }
+    #fivth
+    {
+        border: none;
+    }
+    #ninth
+    {
+        left: -3%;
+        height: 80%;
+        top: -10%;
+    }
+    #fourteen
+    {
+        width: 150px;
+        left: -8%;
+    }
+    #fourteen video
+    {
+        width: 150px;
+    }
+    #tenth
+    {
+        left: -3%;
+        width: 100%;
+    }
+    #tenth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    /* #eleventh
+    {
+        left: -2%;
+    } */
+    #eleventh video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #tewelth
+    {
+        left: 2%;
+    }
+    #tewelth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #thirteen
+    {
+        width: 150px;
+        left: 2%;
+    }
+    #thirteen video
+    {
+        width: 150px;
+    }
+    #fifteen
+    {
+        width: 150px;
+    }
+    #fifteen video
+    {
+        left: -40%;
+    }
+    #sixth
+    {
+        width: 300px;
+        border: none;
+    }
+    #seventh
+    {
+        width: 300px;
+        border: none;
+    }
+    #eight
+    {
+        width: 300px;
+        border: none;
+    }
+    #backpg2 h6
+    {
+        color: white;
+        right: 8%;
+        bottom: 24%;
+    }
+    #viewmoreline
+    {
+        background-color: white;
+        right: 22%;
+        bottom: 24%;
+    }
+    #backpg2 i
+    {
+        color: white;
+        bottom: 24%;
+    }
+    #backpg3
+    {
+        /* width: 100%; */
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 1400px;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backimg3
+    {
+        height: 100%;
+    }
+    #contactblur
+    {
+        width: 60%;
+        height: 90%;
+        top: 45%;
+        flex-direction: column;
+    }
+    .contactus
+    {
+        width: 95%;
+    }
+    .divs
+    {
+        width: 90%;
+    }
+    .contactusline
+    {
+        width: 130%;
+        height: 5px;
+    }
+    #social
+    {
+        font-size: 26px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+    }
+    .divisions
+    {
+        width: 110%;
+    }
+    .divisions:nth-child(2)
+    {
+        margin-top: 15px;
+    }
+    .divisions a
+    {
+        margin-left: 20px;
+    }
+    .partitionline
+    {
+        height: 5px;
+        width: 140%;
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    #vimeo
+    {
+        margin-left: 20px;
+    }
+    #aboutus
+    {
+        width: 130%;
+    }
+    #aboutus p
+    {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #ending
+    {
+        margin-top: 20px;
+    }
+}
+@media(max-width:16cm)
+{
+    #backmain
+    {
+        /* overflow: hidden; */
+        /* width: 93%; */
+        height: 600px;
+        background-color: black;
+        flex-direction: column;
+    }
+    #backpg1
+    {
+        width: 100%;
+        overflow: hidden;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #nav
+    {
+        /* display: flex;
+        align-items: center; */
+        position: fixed;
+        height: 60px;
+        width: 100%;
+    }
+    #logo
+    {
+        width: 60px;
+        height: 15px;
+        margin-left: 10px;
+        margin-bottom: -6px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #links
+    {
+        width: 200px;
+        /* margin-right: 10px; */
+    }
+    #links a
+    {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    #links a:hover
+    {
+        font-size: 10px;
+        width: 60px;
+        height: 15px;
+    }
+    #headings1
+    {
+        left: 25%;
+        top: 15%;
+        width: 250px
+        
+    }
+    #headings1 h2
+    {
+        font-size: 15px;
+    }
+    #headings2
+    {
+        left: 1%;
+        width: 96%;
+        height: 300px;
+        padding: 2px 5px;
+    }
+    #headings2 h2
+    {
+        position: absolute;
+        line-height: 40px;
+        text-align: right;
+        top: 5%;
+        font-weight: 100;
+        left: 7.5%;
+        font-size: 12px;
+    }
+    #dark
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #headings2 h1
+    {
+        top: 20%;
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    #headings2 h1:nth-child(3)
+    {
+        font-size: 30px;
+        position: absolute;
+        top: 30%;
+    }
+    #email
+    {
+        width: 70%;
+        left: 2%;
+    }
+    #email h5
+    {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    #email i
+    {
+        margin-right: 10px;
+    }
+    #headings2 a
+    {
+        width: 22%;
+        right: 2.5%;
+        font-size: 11px;
+    }
+    #gotp
+    {
+        position: fixed;
+        right: 12%;
+    }
+    #overlay h6
+    {
+        top: 88%;
+        right: 1%;
+    }
+    #knowmoreline
+    {
+        top: 82%;
+        right: 3%;
+    }
+    #arrow
+    {
+        bottom: 3%;
+        right: 4%;
+    }
+    #backpg2
+    {
+        width: 100%;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backpg2 h1
+    {
+        margin-left: 5px;
+        font-size: 30px;
+        top: 10%;
+        letter-spacing: 1px;
+    }
+    #backpg2 h3
+    {
+        font-size: 20px;
+        top: 25%;
+        text-align: right;
+        margin-right: -5px;
+    }
+    #portfolio
+    {
+        top: 30%;
+        height: 50%;
+    }
+    .webdesigns
+    {
+        width: 90%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 2px;
+    }
+    #first
+    {
+        border: none;
+    }
+    #second
+    {
+        border: none;
+    }
+    #third
+    {
+        border: none;
+    }
+    #fourth
+    {
+        border: none;
+    }
+    #fivth
+    {
+        border: none;
+    }
+    #ninth
+    {
+        left: -3%;
+        height: 80%;
+        top: -10%;
+    }
+    #fourteen
+    {
+        width: 150px;
+        left: -8%;
+    }
+    #fourteen video
+    {
+        width: 150px;
+    }
+    #tenth
+    {
+        left: -3%;
+        width: 100%;
+    }
+    #tenth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    /* #eleventh
+    {
+        left: -2%;
+    } */
+    #eleventh video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #tewelth
+    {
+        left: 2%;
+    }
+    #tewelth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #thirteen
+    {
+        width: 150px;
+        left: 2%;
+    }
+    #thirteen video
+    {
+        width: 150px;
+    }
+    #fifteen
+    {
+        width: 150px;
+    }
+    #fifteen video
+    {
+        left: -40%;
+    }
+    #sixth
+    {
+        width: 300px;
+        border: none;
+    }
+    #seventh
+    {
+        width: 300px;
+        border: none;
+    }
+    #eight
+    {
+        width: 300px;
+        border: none;
+    }
+    #backpg2 h6
+    {
+        color: white;
+        right: 8%;
+        bottom: 24%;
+    }
+    #viewmoreline
+    {
+        background-color: white;
+        right: 22%;
+        bottom: 24%;
+    }
+    #backpg2 i
+    {
+        color: white;
+        bottom: 24%;
+    }
+    #backpg3
+    {
+        /* width: 100%; */
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 1400px;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backimg3
+    {
+        height: 100%;
+    }
+    #contactblur
+    {
+        width: 60%;
+        height: 90%;
+        top: 45%;
+        flex-direction: column;
+    }
+    .contactus
+    {
+        width: 95%;
+    }
+    .divs
+    {
+        width: 90%;
+    }
+    .contactusline
+    {
+        width: 130%;
+        height: 5px;
+    }
+    #social
+    {
+        font-size: 26px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+    }
+    .divisions
+    {
+        width: 110%;
+    }
+    .divisions:nth-child(2)
+    {
+        margin-top: 15px;
+    }
+    .divisions a
+    {
+        margin-left: 20px;
+    }
+    .partitionline
+    {
+        height: 5px;
+        width: 140%;
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    #vimeo
+    {
+        margin-left: 20px;
+    }
+    #aboutus
+    {
+        width: 130%;
+    }
+    #aboutus p
+    {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #ending
+    {
+        margin-top: 20px;
+    }
+}
+@media(max-width:20cm)
+{
+    #backmain
+    {
+        /* overflow: hidden; */
+        /* width: 93%; */
+        height: 600px;
+        background-color: black;
+        flex-direction: column;
+    }
+    #backpg1
+    {
+        width: 100%;
+        overflow: hidden;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #nav
+    {
+        /* display: flex;
+        align-items: center; */
+        position: fixed;
+        height: 60px;
+        width: 100%;
+    }
+    #logo
+    {
+        width: 60px;
+        height: 15px;
+        margin-left: 10px;
+        margin-bottom: -6px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #links
+    {
+        width: 200px;
+        /* margin-right: 10px; */
+    }
+    #links a
+    {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0;
+    }
+    #links a:hover
+    {
+        font-size: 10px;
+        width: 60px;
+        height: 15px;
+    }
+    #headings1
+    {
+        left: 25%;
+        top: 15%;
+        width: 250px
+        
+    }
+    #headings1 h2
+    {
+        font-size: 15px;
+    }
+    #headings2
+    {
+        left: 1%;
+        width: 96%;
+        height: 300px;
+        padding: 2px 5px;
+    }
+    #headings2 h2
+    {
+        position: absolute;
+        line-height: 40px;
+        text-align: right;
+        top: 5%;
+        font-weight: 100;
+        left: 7.5%;
+        font-size: 12px;
+    }
+    #dark
+    {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #headings2 h1
+    {
+        top: 20%;
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    #headings2 h1:nth-child(3)
+    {
+        font-size: 30px;
+        position: absolute;
+        top: 30%;
+    }
+    #email
+    {
+        width: 70%;
+        left: 2%;
+    }
+    #email h5
+    {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    #email i
+    {
+        margin-right: 10px;
+    }
+    #headings2 a
+    {
+        width: 22%;
+        right: 2.5%;
+        font-size: 11px;
+    }
+    #gotp
+    {
+        position: fixed;
+        right: 12%;
+    }
+    #overlay h6
+    {
+        top: 88%;
+        right: 1%;
+    }
+    #knowmoreline
+    {
+        top: 82%;
+        right: 3%;
+    }
+    #arrow
+    {
+        bottom: 3%;
+        right: 4%;
+    }
+    #backpg2
+    {
+        width: 100%;
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backpg2 h1
+    {
+        margin-left: 5px;
+        font-size: 30px;
+        top: 10%;
+        letter-spacing: 1px;
+    }
+    #backpg2 h3
+    {
+        font-size: 20px;
+        top: 25%;
+        text-align: right;
+        margin-right: -5px;
+    }
+    #portfolio
+    {
+        top: 30%;
+        height: 50%;
+    }
+    .webdesigns
+    {
+        width: 90%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 2px;
+    }
+    #first
+    {
+        border: none;
+    }
+    #second
+    {
+        border: none;
+    }
+    #third
+    {
+        border: none;
+    }
+    #fourth
+    {
+        border: none;
+    }
+    #fivth
+    {
+        border: none;
+    }
+    #ninth
+    {
+        left: -3%;
+        height: 80%;
+        top: -10%;
+    }
+    #fourteen
+    {
+        width: 150px;
+        left: -8%;
+    }
+    #fourteen video
+    {
+        width: 150px;
+    }
+    #tenth
+    {
+        left: -3%;
+        width: 100%;
+    }
+    #tenth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    /* #eleventh
+    {
+        left: -2%;
+    } */
+    #eleventh video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #tewelth
+    {
+        left: 2%;
+    }
+    #tewelth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #thirteen
+    {
+        width: 150px;
+        left: 2%;
+    }
+    #thirteen video
+    {
+        width: 150px;
+    }
+    #fifteen
+    {
+        width: 150px;
+    }
+    #fifteen video
+    {
+        left: -40%;
+    }
+    #sixth
+    {
+        width: 300px;
+        border: none;
+    }
+    #seventh
+    {
+        width: 300px;
+        border: none;
+    }
+    #eight
+    {
+        width: 300px;
+        border: none;
+    }
+    #backpg2 h6
+    {
+        color: white;
+        right: 8%;
+        bottom: 24%;
+    }
+    #viewmoreline
+    {
+        background-color: white;
+        right: 22%;
+        bottom: 24%;
+    }
+    #backpg2 i
+    {
+        color: white;
+        bottom: 24%;
+    }
+    #backpg3
+    {
+        /* width: 100%; */
+        background-image: url(mobileback.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 1400px;
+        flex-direction: column;
+        scroll-behavior: smooth;
+    }
+    #backimg3
+    {
+        height: 100%;
+    }
+    #contactblur
+    {
+        width: 60%;
+        height: 90%;
+        top: 45%;
+        flex-direction: column;
+    }
+    .contactus
+    {
+        width: 95%;
+    }
+    .divs
+    {
+        width: 90%;
+    }
+    .contactusline
+    {
+        width: 130%;
+        height: 5px;
+    }
+    #social
+    {
+        font-size: 26px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+    }
+    .divisions
+    {
+        width: 110%;
+    }
+    .divisions:nth-child(2)
+    {
+        margin-top: 15px;
+    }
+    .divisions a
+    {
+        margin-left: 20px;
+    }
+    .partitionline
+    {
+        height: 5px;
+        width: 140%;
+        margin-top: 30px;
+        background-color: rgb(255, 255, 255);
+    }
+    #vimeo
+    {
+        margin-left: 20px;
+    }
+    #aboutus
+    {
+        width: 130%;
+    }
+    #aboutus p
+    {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    #ending
+    {
+        margin-top: 20px;
+    }
+}
