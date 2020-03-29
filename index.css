@@ -1019,6 +1019,66 @@ html,body
     {
         border: none;
     }
+    #ninth
+    {
+        left: -3%;
+        height: 80%;
+        top: -10%;
+    }
+    #fourteen
+    {
+        width: 150px;
+        left: -8%;
+    }
+    #fourteen video
+    {
+        width: 150px;
+    }
+    #tenth
+    {
+        left: -3%;
+        width: 100%;
+    }
+    #tenth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    /* #eleventh
+    {
+        left: -2%;
+    } */
+    #eleventh video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #tewelth
+    {
+        left: 2%;
+    }
+    #tewelth video
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #thirteen
+    {
+        width: 150px;
+        left: 2%;
+    }
+    #thirteen video
+    {
+        width: 150px;
+    }
+    #fifteen
+    {
+        width: 150px;
+    }
+    #fifteen video
+    {
+        left: -40%;
+    }
     #sixth
     {
         width: 300px;
