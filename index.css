@@ -381,6 +381,8 @@ html,body
 }
 .webdesigns
 {
+    overflow: hidden;
+    position: relative;
     width: 1100px;
     height: 100%;
     display: inline-block;
@@ -392,32 +394,100 @@ html,body
 #first
 {
     background-image: url(second.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
 }
 #second
 {
     background-image: url(first.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
 }
 #third
 {
     background-image: url(third.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
 }
 #fourth
 {
     background-image: url(fourth.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
 }
 #fivth
 {
     background-image: url(fivth.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
+}
+#ninth
+{
+    background-image: url(ninth.jpg);
+    /* border: 1px solid white; */
+}
+#fourteen
+{
+    width: 280px;
+}
+#fourteen video
+{
+    position: absolute;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 280px;
+}
+#tenth
+{
+    position: relative;
+    left: 5%;
+}
+#tenth video
+{
+    position: absolute;
+    height: 100%;
+}
+#eleventh
+{
+    position: relative;
+    /* left: -50%; */
+}
+#eleventh video
+{
+    position: absolute;
+    /* left: -7%; */
+    /* width: 110%; */
+    height: 100%;
+}
+#tewelth
+{
+    position: relative;
+    /* left: -48%; */
+}
+#tewelth video
+{
+    position: absolute;
+    /* left: -10%; */
+    /* width: 110%; */
+    height: 100%;
+}
+#thirteen
+{
+    position: relative;
+    left: -7.5%;
+    width: 280px;
+}
+#thirteen video
+{
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 290px;
 }
 #sixth
 {
     background-image: url(sixth.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -426,7 +496,7 @@ html,body
 #seventh
 {
     background-image: url(seventh.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -436,11 +506,26 @@ html,body
 #eight
 {
     background-image: url(eight.png);
-    border: 1px solid black;
+    /* border: 1px solid white; */
      background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 800px;
+}
+#fifteen
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+}
+#fifteen video
+{
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 280px;
 }
 #backpg2 h6
 {
